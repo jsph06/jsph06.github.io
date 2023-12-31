@@ -1,5 +1,5 @@
 # Setup
-title: Charles 张辉
+title: Han J. H.
 url: 
 paginate: 1
 baseurl: ""
@@ -32,7 +32,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: charles.zhang.hui
+  name: Han J. H.
   url: 
   email: 3047285021@qq.com
 
