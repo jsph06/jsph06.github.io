@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: 关于
 ---
 
 <p class="message">
-  Nothing at all.
+  暂时没什么内容。
 </p>
 
