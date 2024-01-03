@@ -1,57 +1,48 @@
-encoding: utf-8
-
-# SEO相关信息
+# Setup
 title: Han J. H.
-description: Han J. H. 的个人博客
-keywords: Han J. H., Blog
-author: Han J. H.
-footerText: 'Copyright © 2016 Han J. H.'
+url: 
+paginate: 1
+baseurl: ""
+permalink: pretty
 
-# 这些不要动
-permalink: /posts/:year/:month/:day/:title.html
-kramdown:
-  auto_ids: true
-  input: GFM
-  syntax_highlighter: rouge
-exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
 
-# 域名配置
-# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://jsph06.github.io'
-baseurl: ''
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
 
-# 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://jsph06.github.io
+sass:
+  sass_dir: _sass
+  style: :compressed
 
-# 菜单
-# 必填字段 title: '文本' url: '链接'
-# 可选字段 target: '_blank' 新页面打开 
-menu:
-  - title: 首页
-    url: /
-  - title: 归类
-    url: /pages/categories.html
-  - title: 搜索
-    url: /pages/search.html
-  - title: 友链
-    url: /pages/links.html
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: Han J. H.
+  url: 
+  email: 3047285021@qq.com
+
+# Custom vars
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: 归档
+    url: /archive
+
   - title: 关于
-    url: /pages/about.html
-
-# 点击页面文字冒出特效,不需要请设置为false
-extClickEffect: true
-
-# Google Adsense,不需要请设置为false
-# _includes/ext-adsense.html 里面修改为自己的配置
-extAdsense: false
-
-# 数学公式支持，比较影响加载速度,不需要请设置为false
-extMath: false
-
-# 显示访问量统计，由不蒜子提供服务
-extCount: false
-
-# 友情链接
-links:
-  - title: 商会校
-    url: https://www.scasqhwz.edu.cn
+    url: /about
