@@ -21,13 +21,13 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">较老的</a>
+    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">较老的·Older</a>
   {% else %}
-    <span class="pagination-item older">较老的</span>
+    <span class="pagination-item older">较老的·Older</span>
   {% endif %}
   {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">较新的</a>
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">较新的·Newer</a>
   {% else %}
-    <span class="pagination-item newer">较新的</span>
+    <span class="pagination-item newer">较新的·Newer</span>
   {% endif %}
 </div>
