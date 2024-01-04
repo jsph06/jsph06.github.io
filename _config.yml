@@ -41,8 +41,8 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: 归档
+  - title: 归档·Archive
     url: /archive
 
-  - title: 关于
+  - title: 关于·About
     url: /about

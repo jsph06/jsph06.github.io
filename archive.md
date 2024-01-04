@@ -1,11 +1,12 @@
 ---
 layout: default
-title: 归档
+title: 归档·Archive
 ---
 
-# 归档
+# 归档·Archive
     
-按月份和年份浏览所有帖子。
+按月份和年份浏览所有帖子。      
+Browse all posts by month and year.   
 
 {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 {% for yearMonth in postsByYearMonth %}
