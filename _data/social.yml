@@ -1,9 +1,9 @@
 - title: Email
   url: mailto://3047285021@qq.com
   icon: fas fa-envelope
-#- title: Twitter
-#  url: https://x.com/
-#  icon: fas fa-twitter
+- title: Twitter
+  url: https://x.com/jsph_06/
+  icon: fas fa-twitter
 - title: GitHub
   url: https://github.com/jsph06/
   icon: fab fa-github
